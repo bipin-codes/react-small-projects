@@ -1,0 +1,10 @@
+.title {
+  cursor: pointer;
+  background-color: salmon;
+  font-weight: 500;
+  padding: 1rem;
+  color: white;
+}
+.hide {
+  display: none;
+}
