@@ -1,0 +1,73 @@
+.root {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.banner {
+  padding: 1rem;
+  width: 30%;
+  border-radius: inherit;
+  text-align: center;
+  margin: 0.5rem 0;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.result {
+  flex-direction: column;
+}
+.information {
+  background-color: grey;
+}
+.actions {
+  background-color: rgb(117, 117, 236);
+}
+.btn {
+  border-radius: inherit;
+  outline: none;
+  border: none;
+  align-self: center;
+  justify-self: center;
+  background-color: lightyellow;
+}
+.btn:disabled {
+  opacity: 1;
+  color: white;
+  font-weight: 800;
+  background-color: lightgray;
+}
+.restart {
+  padding: 0.8rem 1rem;
+  background-color: rgb(120, 188, 233);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.board {
+  background: rgb(103, 167, 245);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  min-width: 300px;
+  border-radius: inherit;
+  min-height: 300px;
+}
+
+.cell {
+  padding: 5px;
+
+  width: 80%;
+  height: 80%;
+  min-height: 85px;
+  min-width: 85px;
+
+  text-align: center;
+  font-size: 1rem;
+  color: grey;
+  transition: width 1s, height 1s;
+}
